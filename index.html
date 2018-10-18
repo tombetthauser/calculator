@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>calculator</title>
+	<link rel="stylesheet" type="text/css" href="app.css">
+</head>
+<body>
+	<div id="main">
+		<h2>JS Calculator</h2>
+		<div id="inputs" class="mainItem">
+			<p>
+				<input type="text" id="inputOne" placeholder="Number No.01">
+			</p>
+			<p>
+				<input type="text" id="inputTwo" placeholder="Number No.02">
+			</p>
+			<select id="select">
+				<option value="add">add</option>
+				<option value="subtract">subtract</option>
+				<option value="multiply">multiply</option>
+				<option value="divide">divide</option>
+				<option value="square">square (No.01)</option>
+				<option value="root">root (No.01)</option>
+			</select>
+		</div>
+		<div id="results" class="mainItem">
+			<p>
+				<input type="text" id="resultsSpan" placeholder="Your Results..."></input>
+			</p>
+		</div>
+		<div id="controls" class="mainItem">
+			<button id="calculate">calculate</button>
+			<button id="reset">reset</button>
+		</div>
+	</div>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
