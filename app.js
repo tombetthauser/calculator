@@ -24,7 +24,7 @@ calcBtn.onclick = function() {
 		resSpan.value = numOne * numOne;
 	} else if (select == "root") {
 		if (numOne < 0) {
-			resSpan.value = "i";
+			resSpan.value = Math.sqrt(Math.abs(numOne)) + "i";
 		} else {
 			resSpan.value = Math.sqrt(numOne);
 		}
