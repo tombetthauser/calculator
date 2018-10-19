@@ -23,7 +23,11 @@ calcBtn.onclick = function() {
 	} else if (select == "square") {
 		resSpan.value = numOne * numOne;
 	} else if (select == "root") {
-		resSpan.value = Math.sqrt(numOne);
+		if (numOne < 0) {
+			resSpan.value = "i";
+		} else {
+			resSpan.value = Math.sqrt(numOne);
+		}
 	}
 }
 
